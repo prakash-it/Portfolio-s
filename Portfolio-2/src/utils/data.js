@@ -11,7 +11,7 @@ import {SiMongodb} from "react-icons/si"
 export const PROFIL_data = {
     profilPic: "https://via.placeholder.com/150",
     name: "PRAKASH",
-    tagline: "Passionate React.js developer exploring my career with fresh knowledge",
+    tagline: "As a passionate React.js developer exploring your career with fresh knowledge, diving into the MERN stack developement can significantly enhance your capabilities and open new opportunities.",
     jobtitle: "MERN Stack Developer",
     location: "INDIA",
     skills: [

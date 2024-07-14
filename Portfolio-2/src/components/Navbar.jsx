@@ -49,27 +49,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* {isMenuOpen && (
-        <div className='md:hidden fixed top-0 left-0 w-full h-screen bg-navbg flex flex-col items-center justify-center z-40'>
-          <ul className='flex flex-col items-center gap-14'>
-            <li>
-              <Link to='hero' smooth spy offset={-80} className='menu-item' onClick={toggle}> Home </Link>
-            </li>
-            <li>
-              <Link to='skills' smooth spy offset={-80} className='menu-item' onClick={toggle}> Skills </Link>
-            </li>
-            <li>
-              <Link to='edu-experience' smooth spy offset={-80} className='menu-item' onClick={toggle}> Experience </Link>
-            </li>
-            <li>
-              <Link to='about' smooth spy offset={-80} className='menu-item' onClick={toggle}> About </Link>
-            </li>
-            <li>
-              <Link to='contact' smooth spy offset={-80} className='menu-item' onClick={toggle}> Contact </Link>
-            </li>
-          </ul>
-        </div>
-      )} */}
     </>
   );
 }

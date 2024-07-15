@@ -13,6 +13,7 @@ export const PROFIL_data = {
     name: "PRAKASH",
     tagline: "As a passionate React.js developer exploring your career with fresh knowledge, diving into the MERN stack developement can significantly enhance your capabilities and open new opportunities.",
     jobtitle: "MERN Stack Developer",
+    experience: "Fresher",
     location: "INDIA",
     skills: [
         "HTML", "CSS", "Git", "React.js", "MongoDB", "Express.js", "Node.js", "Tailwind CSS"

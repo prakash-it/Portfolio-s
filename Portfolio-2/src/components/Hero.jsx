@@ -41,8 +41,10 @@ export default function Hero() {
               <p className='font-medium'>{location}</p>
             </div>
           </div>
-
+          
+          <a href="mailto:prakashkandasamy4@gmail.com?subject=Subject%20Here&body=Message%20Here">
           <InfoTile icon={<FiMail size={20} className='text-sky-400' />} text={email} />
+          </a>
 
           <InfoTile icon={<MdOutlineBadge size={20} className='text-sky-400' />} text={`${experience}`} />
 

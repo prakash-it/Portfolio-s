@@ -13,9 +13,15 @@ export default function Contact() {
     <div className='grid grid-cols-1 md:grid-cols-2 md:gap-16'>
 
       <div>
+      <a href="mailto:prakashkandasamy4@gmail.com?subject=Subject%20Here&body=Message%20Here" target='_blank'>
         <ContactInfo icon={<IoMdMail/>} text={PROFIL_data.email}/>
+      </a>
+      <a href="tel:+919865579294" target='_blank'>
         <ContactInfo icon={<IoPhonePortraitOutline/>} text={PROFIL_data.Phone}/>
-         <ContactInfo icon={<MdOutlineWeb/>} text={PROFIL_data.website}/>
+      </a>
+      <a href='https://prakash-joyboy.netlify.app/' target='_blank'>
+        <ContactInfo icon={<MdOutlineWeb/>} text={PROFIL_data.website}/>
+      </a>
       </div>
 
       <div>

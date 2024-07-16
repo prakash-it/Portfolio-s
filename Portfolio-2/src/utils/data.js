@@ -19,7 +19,7 @@ export const PROFIL_data = {
         "HTML", "CSS", "Git", "React.js", "MongoDB", "Express.js", "Node.js", "Tailwind CSS"
     ],
     email:"prakashkandasamy4@gmail.com",
-    Phone:"9865579294",
+    Phone:"+919865579294",
     website:"prakash-joyboy"
 }
 

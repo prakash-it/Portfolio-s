@@ -21,7 +21,7 @@ export default function MobileNavbar({isopen, setIsMenuOpen }) {
                 <a className='menu-item' onClick={()=>{handleScroll("skills")}}>Skills</a>
             </li>
             <li  className='mb-5'>
-                <a className='menu-item' onClick={()=>{handleScroll("experience")}}>Experience</a>
+                <a className='menu-item' onClick={()=>{handleScroll("experience")}}>Education</a>
             </li>
             <li  className='mb-5'>
                 <a className='menu-item' onClick={()=>{handleScroll("about")}}>About</a>

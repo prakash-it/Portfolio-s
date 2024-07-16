@@ -20,7 +20,7 @@ export const PROFIL_data = {
     ],
     email:"prakashkandasamy4@gmail.com",
     Phone:"9865579294",
-    website:"prakash-joyboy.netlify.app"
+    website:"prakash-joyboy"
 }
 
 export const Skills = [

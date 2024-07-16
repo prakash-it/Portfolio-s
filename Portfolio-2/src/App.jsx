@@ -7,14 +7,16 @@ import About from './components/About';
 import Contact from './components/Contact';
 
 import BG_gradient from './assets/wave.png';
+import bg from './assets/blue.png'
+import Footer from './components/Footer';
 
 export default function App() {
   return (
     <div className='bg-background'>
      <div 
         style={{
-          backgroundImage: `url(${BG_gradient})`,
-          backgroundPosition: '-90% -80%',
+          backgroundImage: `url(${bg})`,
+          backgroundPosition: '-40% -70%',
         }}
       >
           <Navbar />
@@ -25,6 +27,7 @@ export default function App() {
       <WorkExperience />
       <About />
       <Contact />
+      <Footer/>
     </div>
   );
 }

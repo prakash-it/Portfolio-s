@@ -6,6 +6,7 @@ import { HiOutlineLocationMarker } from "react-icons/hi"
 import { FiMail } from "react-icons/fi"
 import { MdOutlineBadge } from 'react-icons/md'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 
 export default function Hero() {
@@ -20,8 +21,9 @@ export default function Hero() {
 
         <h2 className='text-3xl mt-3 md:text-5xl md:mt-5 '>{name}👋</h2>
         <p className='w-full text-xs font-light text-neutral-50 leading-5 my-6 lg:w-[38vw] md:text-sm md:leading-6 md:my-8'>{tagline}</p>
- 
-        <button className='primary-btn'>Contact Me</button>
+ <Link to='contact'>
+        <button className='primary-btn' >Contact Me</button>
+        </Link>
       </div>
 
       <div className='flex gap-2 justify-center md:gap-3 lg:gap-5 z-[1'>

@@ -87,21 +87,25 @@ export const EDUexperience = [
 ]
 
 export const ABOUT = {
-    heading: "About Me",
-    description: 
+    
+    introduction: 
        " Hello! I'm Prakash, a passionate MERN Stack Developer from India. I have a keen interest in building efficient and scalable web applications using modern technologies.",
 
-        Background:
+    background:
       "I started my journey in web development with a strong foundation in HTML, CSS, and JavaScript. Over time, I have honed my skills in React.js for front-end development and Node.js, Express.js, and MongoDB for back-end development. My experience includes working on various projects, both personal and collaborative, that have helped me understand the intricacies of full-stack development.",
 
-    Projects:` - **Project 1**: [Project Name] - A web application built with React.js and Node.js that allows users to [brief description of functionality].
-        - **Project 2**: [Project Name] - A responsive website developed using Tailwind CSS and Express.js for [brief description of purpose].
-        - **Project 3**: [Project Name] - An e-commerce platform leveraging MongoDB for data storage and React.js for dynamic user interface.`,
+    Skils:`Proficient in HTML, CSS, JavaScript, and TypeScript
+      - Experienced in front-end frameworks like React.js and Next.js
+      - Skilled in back-end development with Node.js, Express.js
+      - Knowledgeable in database management with MongoDB 
+      - Familiar with version control systems like Git and GitHub
+      - Adept at using tools like Webpack, Babel, and npm for efficient development workflows`,
     Career_Goals:
        " My goal is to continuously learn and explore new technologies to enhance my skills and deliver high-quality projects. I aspire to work on innovative projects that solve real-world problems and contribute to the tech community. In the long term, I aim to become a lead developer, guiding teams to build impactful applications and driving technological advancements in the industry."
     ,
     stats:{
-        certificationsEarned : 3
+        certifications : 4,
+        project :5
     }
 };
 

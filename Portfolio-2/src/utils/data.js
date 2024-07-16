@@ -65,9 +65,24 @@ export const Skills = [
 export const EDUexperience = [
     {
         id:"01",
+        Degree: "Full-Stack-Development",
+        specfication:"MERN Stack Developer",
+        duration: "Jan - Jun",
+        decription:"The Full-Stack Development degree with a specialization in MERN Stack Development is a comprehensive program that prepares students to become proficient in building dynamic and responsive web applications. "
+    },
+    {
+        id:"02",
         Degree: "Becholer of Technology",
         specfication:"Infromation Teachnology",
-        duration: "2019-2023"
+        duration: "2019-2023",
+        decription:"The Bachelor of Technology (B.Tech) in Information Technology is a comprehensive undergraduate program designed to equip students with a robust foundation in both theoretical and practical aspects of information technology. "
+    },
+    {
+        id:"03",
+        Degree: "HSC",
+        specfication:"Computer science",
+        duration: "2018-2019",
+        decription:"The Higher Secondary Certificate (HSC) with a specialization in Computer Science is a pre-university program that provides students with a foundational understanding of computer science principles and practices. "
     }
 ]
 

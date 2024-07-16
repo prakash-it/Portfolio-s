@@ -7,6 +7,7 @@ import { FiMail } from "react-icons/fi"
 import { MdOutlineBadge } from 'react-icons/md'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
+
 export default function Hero() {
   const {
     name, tagline, jobtitle, location, email, skills, experience
@@ -19,7 +20,7 @@ export default function Hero() {
 
         <h2 className='text-3xl mt-3 md:text-5xl md:mt-5 '>{name}👋</h2>
         <p className='w-full text-xs font-light text-neutral-50 leading-5 my-6 lg:w-[38vw] md:text-sm md:leading-6 md:my-8'>{tagline}</p>
-
+ 
         <button className='primary-btn'>Contact Me</button>
       </div>
 
@@ -52,16 +53,21 @@ export default function Hero() {
           </div>
 
           <div className='flex items-center gap-2 flex-wrap'>
-            <div className='bg-blue-800/30 p-2 rounded'>
-            <FaGithub className='text-lg md:text-xl'/>
+            <div className='bg-blue-800/30 p-2 rounded hover:bg-background'>
+            <a href='https://github.com/prakash-it' target='_blank'>
+        <FaGithub className='text-lg md:text-xl cursor-pointer' />
+      </a>
             </div>
             
-            <div className='bg-blue-800/30 p-2 rounded'>
-            <FaLinkedin className='text-lg md:text-xl'/>
+            <div className='bg-blue-800/30 p-2 rounded hover:bg-background'>
+            <a href='https://www.linkedin.com/in/prakash-k-ba14291b2/' target='_blank'> <FaLinkedin className='text-lg md:text-xl cursor-pointer'/></a>
+           
             </div>
           </div>
         </div>
       </div>
+
+      <div className='ui-circle absolute top-6 md:top-10 -left-10 md:left-0'></div>
     </section>
   )
 }

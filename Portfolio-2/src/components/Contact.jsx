@@ -71,7 +71,7 @@ const ContactInfo = ({icon, text})=>{
        <div className='w-10 h-10 text-xl text-cyan-300 flex items-center justify-center bg-sky-950 rounded border border-cyan-700 '>
         {icon}
        </div>
-       <p className='text-cyan-100 tezt-xs md:text-sm'>{text}</p>
+       <p className='text-cyan-100 text-xs md:text-sm'>{text}</p>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import profil_img from '../assets/Prakash.K.png'
 import { HiOutlineLocationMarker } from "react-icons/hi"
 import { FiMail } from "react-icons/fi"
 import { MdOutlineBadge } from 'react-icons/md'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 
 
@@ -66,6 +66,12 @@ export default function Hero() {
             <div className='bg-blue-800/30 p-2 rounded hover:bg-background'>
             <a href='https://www.linkedin.com/in/prakash-k-ba14291b2/' target='_blank'> <FaLinkedin className='text-lg md:text-xl cursor-pointer'/></a>
            
+            </div>
+            <div className='bg-blue-800/30 p-2 rounded hover:bg-background'>
+            <a href="https://api.whatsapp.com/send?phone=9865579294&text=Hello,%20more%20information!"
+                                target="_blank">
+            <FaWhatsapp className='text-lg md:text-xl cursor-pointer' />
+            </a>
             </div>
           </div>
         </div>

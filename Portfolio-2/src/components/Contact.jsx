@@ -1,9 +1,33 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { PROFIL_data } from '../utils/data'
 import { IoMdMail } from 'react-icons/io'
 import { IoPhonePortraitOutline } from 'react-icons/io5'
 import { MdOutlineWeb } from 'react-icons/md'
+import emailjs from '@emailjs/browser';
+
 export default function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_8ybrezq', 'template_dpq1eby', form.current, {
+        publicKey: 'vf_8MU56nAmUqf7y4',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          form.current.reset();
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
+
   return (
     <section className='max-w-screen-xl px-6 mx-auto pb-20' id='contact'>
      <h5 className='text-primary md:text-4xl text-2xl font-semibold text-center  pb-8 md:pb-14'>
@@ -26,12 +50,12 @@ export default function Contact() {
 
       <div>
         <h5 className='md:hidden  text-cyan-300 text-lg font-medium mt-4 pb-5'> Contact Form </h5>
-        <form className='flex flex-col'>
-          <input type='text' placeholder='Full Name' id='' className='input-box' autoComplete='off'/>
-          <input type='email' placeholder='Email' id='' className='input-box' autoComplete='off'/>
+        <form className='flex flex-col' ref={form} onSubmit={sendEmail}>
+          <input type='text' placeholder='Full Name' id='' className='input-box' autoComplete='off' name='from_name'/>
+          <input type='email' placeholder='Email' id='' className='input-box' autoComplete='off' name="from_email"/>
           <textarea name="message" placeholder='Message' rows='3' className='input-box' id=""></textarea>
 
-          <button className='primary-btn'>SUBMIT</button>
+          <button className='primary-btn' type="submit" value="Send">SUBMIT</button>
         </form>
         </div>
     </div>

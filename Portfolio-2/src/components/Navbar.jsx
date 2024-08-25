@@ -27,8 +27,12 @@ export default function Navbar() {
               <li>
                 <Link to='skills' smooth spy offset={-80} className='menu-item'> Skills </Link>
               </li>
+            
               <li>
                 <Link to='experience' smooth spy offset={-80} className='menu-item'> Education </Link>
+              </li>
+              <li>
+              <Link to='Projects' smooth spy offset={-80} className='menu-item'> Projects </Link>
               </li>
               <li>
                 <Link to='about' smooth spy offset={-80} className='menu-item'> About </Link>

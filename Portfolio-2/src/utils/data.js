@@ -3,25 +3,31 @@ import {
     IoLogoHtml5,
     IoLogoReact,
     IoLogoNodejs
-} from 'react-icons/io5'
+} from 'react-icons/io5';
 
-import {RiTailwindCssFill} from "react-icons/ri"
-import {SiMongodb} from "react-icons/si"
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMongodb, SiExpress } from "react-icons/si";
 
-export const PROFIL_data = {
+import pic5 from '../assets/pic5.png'
+import pic1 from '../assets/img1.png'
+import pic2 from '../assets/img2.png'
+import pic3 from '../assets/pic3.png'
+
+ export const PROFIL_data = {
     profilPic: "https://via.placeholder.com/150",
     name: "PRAKASH",
-    tagline: "As a passionate React.js developer exploring your career with fresh knowledge, diving into the MERN stack developement can significantly enhance your capabilities and open new opportunities.",
+    tagline: "As a passionate React.js developer exploring your career with fresh knowledge, diving into MERN stack development can significantly enhance your capabilities and open new opportunities.",
     jobtitle: "MERN Stack Developer",
     experience: "Fresher",
     location: "INDIA",
     skills: [
         "HTML", "CSS", "Git", "React.js", "MongoDB", "Express.js", "Node.js", "Tailwind CSS"
     ],
-    email:"prakashkandasamy4@gmail.com",
-    Phone:"+919865579294",
-    website:"prakash-joyboy"
-}
+    email: "prakashkandasamy4@gmail.com",
+    Phone:"Click to Call",
+
+    website: "prakash-joyboy"
+};
 
 export const Skills = [
     {
@@ -59,8 +65,14 @@ export const Skills = [
         icon: SiMongodb,
         title: "MongoDB",
         comment: "MongoDB is my go-to database for flexible data storage."
+    },
+    {
+        id: "07",
+        icon: SiExpress,
+        title: "Express.js",
+        comment: "Express.js is a lightweight web framework for Node.js that simplifies building web servers and APIs."
     }
-]
+];
 
 export const EDUexperience = [
     {
@@ -94,18 +106,26 @@ export const ABOUT = {
     background:
       "I started my journey in web development with a strong foundation in HTML, CSS, and JavaScript. Over time, I have honed my skills in React.js for front-end development and Node.js, Express.js, and MongoDB for back-end development. My experience includes working on various projects, both personal and collaborative, that have helped me understand the intricacies of full-stack development.",
 
-    Skils:`Proficient in HTML, CSS, JavaScript, and TypeScript
-      - Experienced in front-end frameworks like React.js and Next.js
+    Skils:`Proficient in HTML, CSS, JavaScript,
+      - Experienced in front-end frameworks like React.js 
       - Skilled in back-end development with Node.js, Express.js
       - Knowledgeable in database management with MongoDB 
-      - Familiar with version control systems like Git and GitHub
-      - Adept at using tools like Webpack, Babel, and npm for efficient development workflows`,
+      - Familiar with version control systems like Git and GitHub`,
     Career_Goals:
        " My goal is to continuously learn and explore new technologies to enhance my skills and deliver high-quality projects. I aspire to work on innovative projects that solve real-world problems and contribute to the tech community. In the long term, I aim to become a lead developer, guiding teams to build impactful applications and driving technological advancements in the industry."
     ,
     stats:{
         certifications : 4,
-        project :5
+        project :5,
+        Resume:1
     }
 };
 
+
+export const slides = [
+    { id: 1, image: pic1},
+    { id: 2, image: pic2 },
+    { id: 3, image: pic3 },
+    { id: 4, image: 'https://via.placeholder.com/150' },
+    { id: 5, image: pic5 },
+];

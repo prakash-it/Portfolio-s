@@ -12,6 +12,9 @@ import pic5 from '../assets/pic5.png'
 import pic1 from '../assets/img1.png'
 import pic2 from '../assets/img2.png'
 import pic3 from '../assets/pic3.png'
+import pic4 from '../assets/pic4.png'
+
+import { title } from 'framer-motion/client';
 
  export const PROFIL_data = {
     profilPic: "https://via.placeholder.com/150",
@@ -123,9 +126,13 @@ export const ABOUT = {
 
 
 export const slides = [
-    { id: 1, image: pic1},
-    { id: 2, image: pic2 },
+    { id: 1,
+    image: pic1,
+    title:"First Portfolio",
+link:"https://prakash-joyboy.netlify.app/",},
+    
+    { id: 2, image: pic2,title:"Next Level" ,link:"https://prakash1516.netlify.app/"},
     { id: 3, image: pic3 },
-    { id: 4, image: 'https://via.placeholder.com/150' },
+    { id: 4, image: pic4,title:"Carftsman", link:"https://balakrishnan78.netlify.app/" },
     { id: 5, image: pic5 },
 ];
